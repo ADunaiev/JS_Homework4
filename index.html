@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework4</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h2 class="center-align">My Movie Finder</h2>
+
+        <div class="row grey lighten-4 valign-wrapper">
+            <form class="col s12">
+
+              <h4 class="center-align">Search:</h4>
+
+              <div class="row valign-wrapper">
+                <div class="input-field col s6 offset-s3 center-align">
+                  <i class="material-icons prefix">movie</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Title</label>
+                </div>
+              </div>
+
+              <div class="row valign-wrapper">
+                <div class="input-field col s6 offset-s3">
+                    <select>
+                      <option value="" disabled selected>Choose type:</option>
+                      <option value="1">Movie</option>
+                      <option value="2">Series</option>
+                      <option value="3">Episode</option>
+                    </select>
+                    <label>Type:</label>
+                  </div>
+              </div>
+
+              <div class="row valign-wrapper">
+                <div class="col s12 center-align">              
+                    <button type="submit" class="btn waves-effect waves-light" id="search-btn">
+                        <i class="material-icons left">search</i>
+                        search
+                    </button>
+                  </div>
+              </div>
+
+
+
+            </form>
+          </div>
+
+
+
+    </div>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>      
+</body>
+</html>
