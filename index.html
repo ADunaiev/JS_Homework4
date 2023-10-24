@@ -23,18 +23,18 @@
               <div class="row valign-wrapper">
                 <div class="input-field col s6 offset-s3 center-align">
                   <i class="material-icons prefix">movie</i>
-                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                  <label for="icon_prefix2">Title</label>
+                  <textarea id="search-textarea" class="materialize-textarea"></textarea>
+                  <label for="search-textarea">Title</label>
                 </div>
               </div>
 
               <div class="row valign-wrapper">
                 <div class="input-field col s6 offset-s3">
-                    <select>
+                    <select id="type-select">
                       <option value="" disabled selected>Choose type:</option>
-                      <option value="1">Movie</option>
-                      <option value="2">Series</option>
-                      <option value="3">Episode</option>
+                      <option value="movie">Movie</option>
+                      <option value="series">Series</option>
+                      <option value="episode">Episode</option>
                     </select>
                     <label>Type:</label>
                   </div>
@@ -49,10 +49,37 @@
                   </div>
               </div>
 
-
-
             </form>
-          </div>
+        </div>
+
+        <div class="row grey lighten-4 valign-wrapper" id="result-div">
+            <!--
+            <div class="col s12">
+
+              <div class="card large col s4">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="avatar-limited-ed-one-sheet-sun-i7182.jpg" alt="poster">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Avatar<span class="badge" data-badge-caption="movie"></span></span>
+                  <div class="row valign-wrapper">
+                    <div class="col s12">
+
+                      <div class="col s8">
+                        <button type="submit" class="btn waves-effect waves-light" id="details-btn">details</button>
+                      </div>
+                      <div class="col s4 right-align">
+                        <span>2009</span>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+            -->
+        </div>
 
 
 
